@@ -172,7 +172,7 @@ def adadelta(tparams, grads, x, mask, y, cost):
 	return f_grad_shared, f_update
 
 def calculate_auc(test_model, datasets):
-	batchSize = 100
+	batchSize = 10
 	n_batches = int(np.ceil(float(len(datasets[0])) / float(batchSize)))
 	scoreVec = []
 	for index in xrange(n_batches):
