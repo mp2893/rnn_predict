@@ -8,6 +8,7 @@ There are four different versions.
 4. gru_emb_time.py: This uses pre-trained medical code embeddings. This suses time information in addition to the code sequences.
 
 The data are synthetic and make no sense at all. It is intended only for testing the codes.
+
 1. sequences.pkl: This is a pickled list of list of integers. Each integer is assumed to be some medical code.
 2. times.pkl: This is a pickled list of list of integers. Each integer is assumed to the time at which the medical code occurred.
 3. labels.pkl: This is a pickled list of 0 and 1s.
